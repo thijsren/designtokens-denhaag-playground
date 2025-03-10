@@ -8611,6 +8611,32 @@
       }
     }
   },
+  "components/demo-sticker": {
+    "denhaag": {
+      "demo-sticker": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.green.200}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.green.900}"
+        },
+        "padding-inline": {
+          "$type": "spacing",
+          "$value": "{DenHaag.space.inline.beetle}"
+        },
+        "padding-block": {
+          "$type": "spacing",
+          "$value": "{DenHaag.space.block.ant}"
+        },
+        "border-radius": {
+          "$type": "borderRadius",
+          "$value": "{DenHaag.border-radius.round}"
+        }
+      }
+    }
+  },
   "components/unordered-list": {
     "utrecht": {
       "unordered-list": {
@@ -8720,6 +8746,7 @@
       "components/textarea",
       "components/text-input",
       "components/toolbar-button",
+      "components/demo-sticker",
       "components/unordered-list"
     ]
   }
