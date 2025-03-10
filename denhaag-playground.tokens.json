@@ -31,7 +31,11 @@
             "$type": "fontSizes",
             "$value": "3rem"
           }
-        },
+        }
+      }
+    },
+    "DenHaag": {
+      "typography": {
         "line-height": {
           "xs": {
             "$type": "lineHeights",
@@ -884,7 +888,7 @@
             "y": "2",
             "blur": "6",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{DenHaag.color.dark.alpha.100}",
             "type": "dropShadow"
           }
         },
@@ -895,7 +899,7 @@
             "y": "8",
             "blur": "16",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{DenHaag.color.dark.alpha.100}",
             "type": "dropShadow"
           }
         },
@@ -906,7 +910,7 @@
             "y": "16",
             "blur": "48",
             "spread": "0",
-            "color": "{voorbeeld.color.dark.alpha.100}",
+            "color": "{DenHaag.color.dark.alpha.100}",
             "type": "dropShadow"
           }
         }
@@ -918,15 +922,15 @@
       "document": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.white}"
+          "$value": "{DenHaag.color.white}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.900}"
+          "$value": "{DenHaag.color.gray.900}"
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{voorbeeld.typography.font-family.secondary}"
+          "$value": "{DenHaag.typography.font-family.secondary}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -934,84 +938,84 @@
         },
         "font-weight": {
           "$type": "fontWeights",
-          "$value": "{voorbeeld.typography.font-weight.normal}"
+          "$value": "{DenHaag.typography.font-weight.normal}"
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{DenHaag.typography.line-height.md}"
         }
       },
       "heading": {
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{voorbeeld.typography.font-family.primary}"
+          "$value": "{DenHaag.typography.font-family.primary}"
         },
         "font-weight": {
           "$type": "fontWeights",
-          "$value": "{voorbeeld.typography.font-weight.bold}"
+          "$value": "{DenHaag.typography.font-weight.bold}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.900}"
+          "$value": "{DenHaag.color.gray.900}"
         }
       },
       "form-control": {
         "font-weight": {
           "$type": "fontWeights",
-          "$value": "{voorbeeld.typography.font-weight.normal}"
+          "$value": "{DenHaag.typography.font-weight.normal}"
         },
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.white}"
+          "$value": "{DenHaag.color.white}"
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.500}"
+          "$value": "{DenHaag.color.gray.500}"
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.950}"
+          "$value": "{DenHaag.color.gray.950}"
         },
         "disabled": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.50}"
+            "$value": "{DenHaag.color.gray.50}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           }
         },
         "focus": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.black}"
+            "$value": "{DenHaag.color.black}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.black}"
+            "$value": "{DenHaag.color.black}"
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           }
         },
         "invalid": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           },
           "border-color": {
             "$type": "color",
@@ -1023,13 +1027,13 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           }
         },
         "read-only": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.50}"
+            "$value": "{DenHaag.color.gray.50}"
           },
           "border-color": {
             "$type": "color",
@@ -1037,13 +1041,13 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.950}"
+            "$value": "{DenHaag.color.gray.950}"
           }
         },
         "placeholder": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.600}"
+            "$value": "{DenHaag.color.gray.600}"
           }
         },
         "border-radius": {
@@ -1052,7 +1056,7 @@
         },
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{voorbeeld.typography.font-family.secondary}"
+          "$value": "{DenHaag.typography.font-family.secondary}"
         },
         "font-size": {
           "$type": "fontSizes",
@@ -1060,7 +1064,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{DenHaag.typography.line-height.md}"
         },
         "max-inline-size": {
           "$type": "sizing",
@@ -1068,38 +1072,38 @@
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{DenHaag.space.inline.snail}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{DenHaag.space.inline.snail}"
         }
       },
       "focus": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.yellow.200}"
+          "$value": "{DenHaag.color.yellow.200}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.black}"
+          "$value": "{DenHaag.color.black}"
         },
         "outline-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.700}"
+          "$value": "{DenHaag.color.violet.700}"
         },
         "inverse": {
           "outline-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           }
         },
         "outline-offset": {
@@ -1112,28 +1116,28 @@
         },
         "outline-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.md}"
+          "$value": "{DenHaag.border-width.md}"
         }
       },
       "pointer-target": {
         "min-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.md}"
+          "$value": "{DenHaag.size.md}"
         }
       },
       "feedback": {
         "warning": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.yellow.100}"
+            "$value": "{DenHaag.color.yellow.100}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.yellow.600}"
+            "$value": "{DenHaag.color.yellow.600}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.yellow.600}"
+            "$value": "{DenHaag.color.yellow.600}"
           }
         }
       }
@@ -1142,34 +1146,34 @@
       "root": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.50}"
+          "$value": "{DenHaag.color.gray.50}"
         }
       },
       "container": {
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.300}"
+          "$value": "{DenHaag.color.gray.300}"
         }
       },
       "line": {
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.300}"
+          "$value": "{DenHaag.color.gray.300}"
         }
       },
       "form-control": {
         "active": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           },
           "accent-color": {
             "$type": "color",
@@ -1177,21 +1181,21 @@
           },
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.100}"
+            "$value": "{DenHaag.color.gray.100}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.950}"
+            "$value": "{DenHaag.color.gray.950}"
           }
         },
         "hover": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           },
           "accent-color": {
             "$type": "color",
@@ -1199,15 +1203,15 @@
           },
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.50}"
+            "$value": "{DenHaag.color.gray.50}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.950}"
+            "$value": "{DenHaag.color.gray.950}"
           }
         },
         "accent-color": {
@@ -1217,7 +1221,7 @@
         "disabled": {
           "accent-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           }
         }
       },
@@ -1225,41 +1229,41 @@
         "inverse": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.950}"
+            "$value": "{DenHaag.color.gray.950}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           }
         },
         "subtle": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.600}"
+            "$value": "{DenHaag.color.gray.600}"
           }
         },
         "strong": {
           "font-weight": {
             "$type": "fontWeights",
-            "$value": "{voorbeeld.typography.font-weight.bold}"
+            "$value": "{DenHaag.typography.font-weight.bold}"
           }
         }
       },
       "interaction": {
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.700}"
+          "$value": "{DenHaag.color.violet.700}"
         },
         "active": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.violet.900}"
+            "$value": "{DenHaag.color.violet.900}"
           }
         },
         "hover": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.violet.800}"
+            "$value": "{DenHaag.color.violet.800}"
           }
         }
       },
@@ -1267,13 +1271,13 @@
         "functional": {
           "size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.icon.md}"
+            "$value": "{DenHaag.size.icon.md}"
           }
         },
         "toptask": {
           "size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.icon.4xl}"
+            "$value": "{DenHaag.size.icon.4xl}"
           }
         }
       },
@@ -1281,43 +1285,43 @@
         "informative": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.blue.100}"
+            "$value": "{DenHaag.color.blue.100}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.blue.600}"
+            "$value": "{DenHaag.color.blue.600}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.blue.600}"
+            "$value": "{DenHaag.color.blue.600}"
           }
         },
         "negative": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.red.100}"
+            "$value": "{DenHaag.color.red.100}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.red.600}"
+            "$value": "{DenHaag.color.red.600}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.red.600}"
+            "$value": "{DenHaag.color.red.600}"
           }
         },
         "positive": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.green.100}"
+            "$value": "{DenHaag.color.green.100}"
           },
           "border-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.green.600}"
+            "$value": "{DenHaag.color.green.600}"
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.green.600}"
+            "$value": "{DenHaag.color.green.600}"
           }
         }
       },
@@ -1329,30 +1333,30 @@
           },
           "besties": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{DenHaag.space.row.snail}"
           },
           "vrienden": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.rat}"
+            "$value": "{DenHaag.space.row.rat}"
           },
           "bekenden": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.cat}"
+            "$value": "{DenHaag.space.row.cat}"
           },
           "onbekenden": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.pig}"
+            "$value": "{DenHaag.space.row.pig}"
           },
           "onbemind": {
             "$type": "dimension",
-            "$value": "{voorbeeld.space.row.horse}"
+            "$value": "{DenHaag.space.row.horse}"
           }
         }
       },
       "code": {
         "font-family": {
           "$type": "fontFamilies",
-          "$value": "{voorbeeld.typography.font-family.code}"
+          "$value": "{DenHaag.typography.font-family.code}"
         }
       }
     }
@@ -1367,29 +1371,29 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{DenHaag.space.block.rabbit}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{DenHaag.space.block.rabbit}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           }
         },
         "button": {
           "gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.text.mouse}"
+            "$value": "{DenHaag.space.text.mouse}"
           },
           "icon": {
             "size": {
@@ -1399,23 +1403,23 @@
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.50}"
+            "$value": "{DenHaag.color.gray.50}"
           },
           "border-color": {
             "$type": "color",
@@ -1428,7 +1432,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.100}"
+              "$value": "{DenHaag.color.gray.100}"
             },
             "border-color": {
               "$type": "color",
@@ -1456,7 +1460,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.200}"
+              "$value": "{DenHaag.color.gray.200}"
             },
             "border-color": {
               "$type": "color",
@@ -1469,7 +1473,7 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "border-radius": {
             "$type": "borderRadius",
@@ -1483,7 +1487,7 @@
         "section": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "border-color": {
             "$type": "color",
@@ -1552,7 +1556,7 @@
         },
         "gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{DenHaag.space.row.snail}"
         },
         "line-height": {
           "$type": "lineHeights",
@@ -1560,32 +1564,32 @@
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{DenHaag.space.block.mouse}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{DenHaag.space.block.mouse}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "lg": {
           "gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.column.rat}"
+            "$value": "{DenHaag.space.column.rat}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{DenHaag.space.block.mouse}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{DenHaag.space.block.mouse}"
           }
         },
         "date": {
@@ -1599,7 +1603,7 @@
           },
           "gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{DenHaag.space.row.snail}"
           },
           "warning": {
             "color": {
@@ -1608,7 +1612,7 @@
             },
             "gap": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.row.snail}"
+              "$value": "{DenHaag.space.row.snail}"
             },
             "font-weight": {
               "$type": "fontWeights",
@@ -1627,12 +1631,12 @@
         "details": {
           "gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{DenHaag.space.row.snail}"
           },
           "lg": {
             "gap": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.column.rat}"
+              "$value": "{DenHaag.space.column.rat}"
             }
           }
         },
@@ -1651,35 +1655,35 @@
         "single": {
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.100}"
+              "$value": "{DenHaag.color.gray.100}"
             }
           },
           "details": {
             "gap": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.row.snail}"
+              "$value": "{DenHaag.space.row.snail}"
             },
             "lg": {
               "gap": {
                 "$type": "spacing",
-                "$value": "{voorbeeld.space.column.snail}"
+                "$value": "{DenHaag.space.column.snail}"
               }
             }
           }
@@ -1708,7 +1712,7 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{DenHaag.space.column.snail}"
         },
         "padding-block-end": {
           "$type": "spacing",
@@ -1720,7 +1724,7 @@
         },
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{DenHaag.space.row.snail}"
         }
       }
     }
@@ -1742,7 +1746,7 @@
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.md}"
+          "$value": "{DenHaag.border-width.md}"
         },
         "color": {
           "$type": "color",
@@ -1750,34 +1754,34 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{DenHaag.space.column.snail}"
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.rat}"
+          "$value": "{DenHaag.space.block.rat}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{DenHaag.space.block.mouse}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "content": {
           "row-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.row.rat}"
+            "$value": "{DenHaag.space.row.rat}"
           }
         },
         "message": {
           "row-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{DenHaag.space.row.snail}"
           }
         },
         "info": {
@@ -1839,7 +1843,7 @@
         "icon": {
           "inset-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.flea}"
+            "$value": "{DenHaag.space.block.flea}"
           },
           "size": {
             "$type": "sizing",
@@ -1889,7 +1893,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{DenHaag.typography.line-height.sm}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -1908,7 +1912,7 @@
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.round}"
+          "$value": "{DenHaag.border-radius.round}"
         },
         "size": {
           "$type": "sizing",
@@ -1926,7 +1930,7 @@
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.white}"
+          "$value": "{DenHaag.color.white}"
         },
         "text": {
           "font-family": {
@@ -1952,7 +1956,7 @@
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "hover": {
           "background-color": {
@@ -1965,7 +1969,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           }
         }
       }
@@ -1976,11 +1980,11 @@
       "backdrop": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.black}"
+          "$value": "{DenHaag.color.black}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.white}"
+          "$value": "{DenHaag.color.white}"
         },
         "opacity": {
           "$type": "opacity",
@@ -2042,11 +2046,11 @@
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "spacing",
@@ -2058,7 +2062,7 @@
         },
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{DenHaag.space.row.snail}"
         },
         "attribution": {
           "color": {
@@ -2102,16 +2106,16 @@
             },
             "column-gap": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.text.beetle}"
+              "$value": "{DenHaag.space.text.beetle}"
             }
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
@@ -2173,7 +2177,7 @@
         "separator": {
           "size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.2xs}"
+            "$value": "{DenHaag.size.2xs}"
           },
           "color": {
             "$type": "color",
@@ -2182,7 +2186,7 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{DenHaag.space.column.snail}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -2211,19 +2215,19 @@
         "item": {
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{DenHaag.space.inline.beetle}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{DenHaag.space.inline.beetle}"
           }
         },
         "link": {
@@ -2258,7 +2262,7 @@
           "disabled": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.500}"
+              "$value": "{DenHaag.color.gray.500}"
             }
           },
           "current": {
@@ -2290,7 +2294,7 @@
           "icon": {
             "size": {
               "$type": "sizing",
-              "$value": "{voorbeeld.size.2xs}"
+              "$value": "{DenHaag.size.2xs}"
             }
           }
         },
@@ -2310,19 +2314,19 @@
         },
         "border-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.900}"
+          "$value": "{DenHaag.color.gray.900}"
         },
         "color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.900}"
+          "$value": "{DenHaag.color.gray.900}"
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.md}"
+          "$value": "{DenHaag.border-radius.md}"
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "icon": {
           "size": {
@@ -2348,24 +2352,24 @@
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "disabled": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.50}"
+            "$value": "{DenHaag.color.gray.50}"
           },
           "border-color": {
             "$type": "color",
@@ -2373,7 +2377,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           }
         },
         "focus": {
@@ -2393,7 +2397,7 @@
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.50}"
+            "$value": "{DenHaag.color.gray.50}"
           },
           "border-color": {
             "$type": "color",
@@ -2407,7 +2411,7 @@
         "active": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.100}"
+            "$value": "{DenHaag.color.gray.100}"
           },
           "border-color": {
             "$type": "color",
@@ -2428,7 +2432,7 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.text.beetle}"
+          "$value": "{DenHaag.space.text.beetle}"
         },
         "primary-action": {
           "hover": {
@@ -2442,7 +2446,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           },
           "background-color": {
@@ -2455,12 +2459,12 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           },
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.50}"
+              "$value": "{DenHaag.color.gray.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2468,7 +2472,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.500}"
+              "$value": "{DenHaag.color.gray.500}"
             }
           },
           "focus": {
@@ -2500,7 +2504,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           },
           "font-size": {
@@ -2516,7 +2520,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.50}"
+              "$value": "{DenHaag.color.gray.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2529,7 +2533,7 @@
           },
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           },
           "border-color": {
             "$type": "color",
@@ -2542,7 +2546,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.50}"
+              "$value": "{DenHaag.color.gray.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2550,7 +2554,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.500}"
+              "$value": "{DenHaag.color.gray.500}"
             }
           },
           "focus": {
@@ -2574,7 +2578,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.100}"
+              "$value": "{DenHaag.color.gray.100}"
             },
             "border-color": {
               "$type": "color",
@@ -2606,7 +2610,7 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.dark.alpha.50}"
+              "$value": "{DenHaag.color.dark.alpha.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2632,7 +2636,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.50}"
+              "$value": "{DenHaag.color.gray.50}"
             },
             "border-color": {
               "$type": "color",
@@ -2640,7 +2644,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.500}"
+              "$value": "{DenHaag.color.gray.500}"
             }
           },
           "focus": {
@@ -2660,7 +2664,7 @@
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.dark.alpha.100}"
+              "$value": "{DenHaag.color.dark.alpha.100}"
             },
             "border-color": {
               "$type": "color",
@@ -2685,7 +2689,7 @@
         "heading": {
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{DenHaag.typography.line-height.sm}"
           },
           "font-size": {
             "$type": "fontSizes",
@@ -2712,15 +2716,15 @@
         },
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.mouse}"
+          "$value": "{DenHaag.space.row.mouse}"
         },
         "padding-block": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.rat}"
+          "$value": "{DenHaag.space.block.rat}"
         },
         "padding-inline": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.rabbit}"
+          "$value": "{DenHaag.space.inline.rabbit}"
         },
         "icon": {
           "size": {
@@ -2734,12 +2738,12 @@
         },
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.200}"
+          "$value": "{DenHaag.color.violet.200}"
         },
         "read-only": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.100}"
+            "$value": "{DenHaag.color.gray.100}"
           },
           "color": {
             "$type": "color",
@@ -2748,26 +2752,26 @@
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.200}"
+              "$value": "{DenHaag.color.gray.200}"
             }
           },
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.300}"
+              "$value": "{DenHaag.color.gray.300}"
             }
           }
         },
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.violet.300}"
+            "$value": "{DenHaag.color.violet.300}"
           }
         },
         "active": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.violet.400}"
+            "$value": "{DenHaag.color.violet.400}"
           }
         },
         "min-block-size": {
@@ -2788,42 +2792,42 @@
           "folder": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.violet.300}"
+              "$value": "{DenHaag.color.violet.300}"
             },
             "read-only": {
               "background-color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.gray.200}"
+                "$value": "{DenHaag.color.gray.200}"
               },
               "hover": {
                 "background-color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.color.gray.300}"
+                  "$value": "{DenHaag.color.gray.300}"
                 }
               },
               "active": {
                 "background-color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.color.gray.400}"
+                  "$value": "{DenHaag.color.gray.400}"
                 }
               }
             },
             "active": {
               "background-color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.violet.500}"
+                "$value": "{DenHaag.color.violet.500}"
               }
             },
             "hover": {
               "background-color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.violet.400}"
+                "$value": "{DenHaag.color.violet.400}"
               }
             },
             "focus-visible": {
               "background-color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.yellow.300}"
+                "$value": "{DenHaag.color.yellow.300}"
               }
             }
           }
@@ -2840,7 +2844,7 @@
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{DenHaag.border-radius.sm}"
         },
         "color": {
           "$type": "color",
@@ -2870,7 +2874,7 @@
         },
         "size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         },
         "icon": {
           "size": {
@@ -2959,7 +2963,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           }
         },
         "indeterminate": {
@@ -2977,7 +2981,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           }
         }
       }
@@ -3018,7 +3022,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           },
           "active": {
@@ -3036,7 +3040,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           },
           "disabled": {
@@ -3050,7 +3054,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           }
         },
@@ -3070,7 +3074,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           },
           "hover": {
@@ -3088,7 +3092,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           },
           "focus-visible": {
@@ -3120,7 +3124,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           }
         }
@@ -3132,15 +3136,15 @@
       "checkbox-group": {
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{DenHaag.space.block.beetle}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{DenHaag.space.block.beetle}"
         },
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.rat}"
+          "$value": "{DenHaag.space.row.rat}"
         }
       }
     }
@@ -3150,7 +3154,7 @@
       "code": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.100}"
+          "$value": "{DenHaag.color.gray.100}"
         },
         "color": {
           "$type": "color",
@@ -3170,7 +3174,7 @@
       "code": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.100}"
+          "$value": "{DenHaag.color.gray.100}"
         },
         "color": {
           "$type": "color",
@@ -3196,11 +3200,11 @@
       "code-block": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.100}"
+          "$value": "{DenHaag.color.gray.100}"
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{DenHaag.border-radius.sm}"
         },
         "color": {
           "$type": "color",
@@ -3220,11 +3224,11 @@
         },
         "padding-block": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{DenHaag.space.block.mouse}"
         },
         "padding-inline": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         }
       }
     },
@@ -3232,7 +3236,7 @@
       "code-block": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.gray.100}"
+          "$value": "{DenHaag.color.gray.100}"
         },
         "color": {
           "$type": "color",
@@ -3252,19 +3256,19 @@
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{DenHaag.space.block.mouse}"
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.mouse}"
+          "$value": "{DenHaag.space.block.mouse}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         }
       }
     }
@@ -3286,15 +3290,15 @@
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "block-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{DenHaag.size.sm}"
         },
         "inline-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{DenHaag.size.sm}"
         }
       }
     },
@@ -3345,7 +3349,7 @@
         "step": {
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.cat}"
+            "$value": "{DenHaag.space.block.cat}"
           },
           "distance": {
             "$type": "spacing",
@@ -3362,22 +3366,22 @@
           "mobile": {
             "margin-inline-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.inline.dog}"
+              "$value": "{DenHaag.space.inline.dog}"
             }
           },
           "file": {
             "margin-block-end": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.rabbit}"
+              "$value": "{DenHaag.space.block.rabbit}"
             },
             "margin-block-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.rabbit}"
+              "$value": "{DenHaag.space.block.rabbit}"
             },
             "mobile": {
               "margin-block-end": {
                 "$type": "spacing",
-                "$value": "{voorbeeld.space.block.cat}"
+                "$value": "{DenHaag.space.block.cat}"
               }
             }
           },
@@ -3392,7 +3396,7 @@
             },
             "margin-block-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.mouse}"
+              "$value": "{DenHaag.space.block.mouse}"
             }
           }
         },
@@ -3420,7 +3424,7 @@
           "toggle": {
             "gap": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.text.beetle}"
+              "$value": "{DenHaag.space.text.beetle}"
             },
             "active": {
               "color": {
@@ -3469,7 +3473,7 @@
         "step-meta": {
           "gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.text.mouse}"
+            "$value": "{DenHaag.space.text.mouse}"
           },
           "marker": {
             "color": {
@@ -3478,7 +3482,7 @@
             },
             "size": {
               "$type": "sizing",
-              "$value": "{voorbeeld.size.4xs}"
+              "$value": "{DenHaag.size.4xs}"
             }
           }
         }
@@ -3504,7 +3508,7 @@
       "data-badge": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.100}"
+          "$value": "{DenHaag.color.violet.100}"
         },
         "border-color": {
           "$type": "color",
@@ -3512,11 +3516,11 @@
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{DenHaag.border-radius.sm}"
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "color": {
           "$type": "color",
@@ -3540,11 +3544,11 @@
         },
         "min-block-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         },
         "min-inline-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{DenHaag.size.sm}"
         },
         "padding-block": {
           "$type": "spacing",
@@ -3552,7 +3556,7 @@
         },
         "padding-inline": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{DenHaag.space.inline.ant}"
         }
       }
     },
@@ -3560,11 +3564,11 @@
       "data-badge": {
         "min-block-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         },
         "min-inline-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{DenHaag.size.sm}"
         },
         "padding-block": {
           "$type": "spacing",
@@ -3572,11 +3576,11 @@
         },
         "padding-inline": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{DenHaag.space.inline.ant}"
         },
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.100}"
+          "$value": "{DenHaag.color.violet.100}"
         },
         "color": {
           "$type": "color",
@@ -3588,11 +3592,11 @@
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{DenHaag.border-radius.sm}"
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -3619,7 +3623,7 @@
         "header": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "label": {
             "color": {
@@ -3645,23 +3649,23 @@
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{DenHaag.space.block.beetle}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{DenHaag.space.block.beetle}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{DenHaag.space.inline.beetle}"
           },
           "column-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.column.snail}"
+            "$value": "{DenHaag.space.column.snail}"
           },
           "border-color": {
             "$type": "color",
@@ -3679,23 +3683,23 @@
         "footer": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{DenHaag.space.block.mouse}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{DenHaag.space.block.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "border-color": {
             "$type": "color",
@@ -3708,20 +3712,20 @@
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "content": {
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{DenHaag.space.block.rabbit}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{DenHaag.space.block.rabbit}"
           },
           "padding-inline": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           }
         },
         "background-color": {
@@ -3738,7 +3742,7 @@
         },
         "box-shadow": {
           "$type": "boxShadow",
-          "$value": "{voorbeeld.box-shadow.lg}"
+          "$value": "{DenHaag.box-shadow.lg}"
         }
       }
     },
@@ -3746,15 +3750,15 @@
       "drawer": {
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "background-color": {
           "$type": "color",
@@ -3790,11 +3794,11 @@
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.rabbit}"
+          "$value": "{DenHaag.space.block.rabbit}"
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.rabbit}"
+          "$value": "{DenHaag.space.block.rabbit}"
         },
         "backdrop": {
           "min-size": {
@@ -3828,7 +3832,7 @@
       "figure": {
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{DenHaag.space.row.snail}"
         }
       }
     }
@@ -3838,7 +3842,7 @@
       "file": {
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "border-color": {
           "$type": "color",
@@ -3847,15 +3851,15 @@
         "left": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.100}"
+            "$value": "{DenHaag.color.gray.100}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           }
         },
         "link": {
@@ -3871,7 +3875,7 @@
           },
           "gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.text.beetle}"
+            "$value": "{DenHaag.space.text.beetle}"
           },
           "icon": {
             "width": {
@@ -3887,23 +3891,23 @@
         "right": {
           "gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{DenHaag.space.row.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           }
         }
       }
@@ -3919,11 +3923,11 @@
           },
           "border-inline-start-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           }
         }
       }
@@ -3934,7 +3938,7 @@
       "form-field-checkbox-option": {
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{DenHaag.space.column.snail}"
         }
       }
     }
@@ -4016,7 +4020,7 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.text.mouse}"
+          "$value": "{DenHaag.space.text.mouse}"
         }
       }
     }
@@ -4055,7 +4059,7 @@
         "disabled": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.600}"
+            "$value": "{DenHaag.color.gray.600}"
           }
         },
         "radio": {
@@ -4078,7 +4082,7 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.text.beetle}"
+          "$value": "{DenHaag.space.text.beetle}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -4139,7 +4143,7 @@
         "disabled": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.600}"
+            "$value": "{DenHaag.color.gray.600}"
           }
         }
       }
@@ -4150,7 +4154,7 @@
       "form-field-radio-option": {
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.column.snail}"
+          "$value": "{DenHaag.space.column.snail}"
         }
       }
     }
@@ -4170,11 +4174,11 @@
           "row": {
             "padding-block-end": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{DenHaag.space.block.snail}"
             },
             "padding-block-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{DenHaag.space.block.snail}"
             },
             "padding-inline-end": {
               "$type": "spacing",
@@ -4187,11 +4191,11 @@
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           },
           "padding-inline-end": {
             "$type": "spacing",
@@ -4210,15 +4214,15 @@
           "row": {
             "padding-block-end": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{DenHaag.space.block.snail}"
             },
             "padding-block-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{DenHaag.space.block.snail}"
             },
             "padding-inline-end": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.inline.mouse}"
+              "$value": "{DenHaag.space.inline.mouse}"
             },
             "padding-inline-start": {
               "$type": "spacing",
@@ -4227,11 +4231,11 @@
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
@@ -4245,7 +4249,7 @@
         "item": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "border-color": {
             "$type": "color",
@@ -4268,11 +4272,11 @@
           "row": {
             "padding-block-end": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{DenHaag.space.block.snail}"
             },
             "padding-block-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.snail}"
+              "$value": "{DenHaag.space.block.snail}"
             },
             "padding-inline-end": {
               "$type": "spacing",
@@ -4280,20 +4284,20 @@
             },
             "padding-inline-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.inline.mouse}"
+              "$value": "{DenHaag.space.inline.mouse}"
             }
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
@@ -4325,7 +4329,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{DenHaag.typography.line-height.sm}"
           }
         },
         "level-2": {
@@ -4347,7 +4351,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{DenHaag.typography.line-height.sm}"
           }
         },
         "level-3": {
@@ -4369,7 +4373,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{DenHaag.typography.line-height.sm}"
           }
         },
         "level-4": {
@@ -4391,7 +4395,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.md}"
+            "$value": "{DenHaag.typography.line-height.md}"
           }
         },
         "level-5": {
@@ -4413,7 +4417,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.md}"
+            "$value": "{DenHaag.typography.line-height.md}"
           }
         },
         "level-6": {
@@ -4435,7 +4439,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.md}"
+            "$value": "{DenHaag.typography.line-height.md}"
           }
         }
       }
@@ -4462,7 +4466,7 @@
           "1": {
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.sm}"
+              "$value": "{DenHaag.typography.line-height.sm}"
             },
             "font-size": {
               "$type": "fontSizes",
@@ -4472,7 +4476,7 @@
           "2": {
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.sm}"
+              "$value": "{DenHaag.typography.line-height.sm}"
             },
             "font-size": {
               "$type": "fontSizes",
@@ -4482,7 +4486,7 @@
           "3": {
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.sm}"
+              "$value": "{DenHaag.typography.line-height.sm}"
             },
             "font-size": {
               "$type": "fontSizes",
@@ -4492,7 +4496,7 @@
           "4": {
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.md}"
+              "$value": "{DenHaag.typography.line-height.md}"
             },
             "font-size": {
               "$type": "fontSizes",
@@ -4502,7 +4506,7 @@
           "5": {
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.md}"
+              "$value": "{DenHaag.typography.line-height.md}"
             },
             "font-size": {
               "$type": "fontSizes",
@@ -4512,7 +4516,7 @@
           "6": {
             "line-height": {
               "$type": "lineHeights",
-              "$value": "{voorbeeld.typography.line-height.md}"
+              "$value": "{DenHaag.typography.line-height.md}"
             },
             "font-size": {
               "$type": "fontSizes",
@@ -4568,7 +4572,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.sm}"
+          "$value": "{DenHaag.typography.line-height.sm}"
         }
       }
     }
@@ -4618,7 +4622,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.sm}"
+          "$value": "{DenHaag.typography.line-height.sm}"
         }
       }
     }
@@ -4668,7 +4672,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.sm}"
+          "$value": "{DenHaag.typography.line-height.sm}"
         }
       }
     }
@@ -4718,7 +4722,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{DenHaag.typography.line-height.md}"
         }
       }
     }
@@ -4768,7 +4772,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{DenHaag.typography.line-height.md}"
         }
       }
     }
@@ -4818,7 +4822,7 @@
         },
         "line-height": {
           "$type": "lineHeights",
-          "$value": "{voorbeeld.typography.line-height.md}"
+          "$value": "{DenHaag.typography.line-height.md}"
         }
       }
     }
@@ -4851,7 +4855,7 @@
         "subheading": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.700}"
+            "$value": "{DenHaag.color.gray.700}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -4878,7 +4882,7 @@
       "icon": {
         "size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         }
       }
     },
@@ -4886,7 +4890,7 @@
       "icon": {
         "size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         }
       }
     }
@@ -4896,19 +4900,19 @@
       "icon-only-button": {
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{DenHaag.space.inline.snail}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{DenHaag.space.inline.snail}"
         }
       }
     }
@@ -4985,7 +4989,7 @@
         "disabled": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           },
           "cursor": {
             "$type": "other",
@@ -5008,7 +5012,7 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.text.beetle}"
+          "$value": "{DenHaag.space.text.beetle}"
         },
         "text-decoration": {
           "$type": "textDecoration",
@@ -5086,7 +5090,7 @@
       "link-list": {
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.snail}"
+          "$value": "{DenHaag.space.row.snail}"
         },
         "icon": {
           "inset-block-start": {
@@ -5101,7 +5105,7 @@
         "link": {
           "column-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{DenHaag.space.block.beetle}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -5133,7 +5137,7 @@
         "active": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.100}"
+            "$value": "{DenHaag.color.gray.100}"
           },
           "border-color": {
             "$type": "color",
@@ -5146,7 +5150,7 @@
         },
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.white}"
+          "$value": "{DenHaag.color.white}"
         },
         "border-color": {
           "$type": "color",
@@ -5158,16 +5162,16 @@
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.md}"
+          "$value": "{DenHaag.border-radius.md}"
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "hover": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.50}"
+            "$value": "{DenHaag.color.gray.50}"
           },
           "border-color": {
             "$type": "color",
@@ -5186,19 +5190,19 @@
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{DenHaag.space.block.beetle}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{DenHaag.space.block.beetle}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.beetle}"
+          "$value": "{DenHaag.space.inline.beetle}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.beetle}"
+          "$value": "{DenHaag.space.inline.beetle}"
         },
         "min-block-size": {
           "$type": "sizing",
@@ -5214,7 +5218,7 @@
         },
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.snail}"
+          "$value": "{DenHaag.space.inline.snail}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -5288,7 +5292,7 @@
       "mark": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.yellow.100}"
+          "$value": "{DenHaag.color.yellow.100}"
         },
         "color": {
           "$type": "color",
@@ -5302,28 +5306,28 @@
       "modal-dialog": {
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.lg}"
+          "$value": "{DenHaag.border-radius.lg}"
         },
         "box-shadow": {
           "$type": "boxShadow",
-          "$value": "{voorbeeld.box-shadow.lg}"
+          "$value": "{DenHaag.box-shadow.lg}"
         },
         "header": {
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{DenHaag.space.block.beetle}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{DenHaag.space.inline.beetle}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{DenHaag.space.block.beetle}"
           },
           "background-color": {
             "$type": "color",
@@ -5357,11 +5361,11 @@
           },
           "column-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.column.snail}"
+            "$value": "{DenHaag.space.column.snail}"
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           }
         },
         "border-color": {
@@ -5379,19 +5383,19 @@
         "footer": {
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{DenHaag.space.block.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.mouse}"
+            "$value": "{DenHaag.space.block.mouse}"
           },
           "background-color": {
             "$type": "color",
@@ -5403,26 +5407,26 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           }
         },
         "content": {
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{DenHaag.space.block.rabbit}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{DenHaag.space.block.rabbit}"
           },
           "padding-inline": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           }
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         }
       }
     }
@@ -5447,19 +5451,19 @@
         "link": {
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{DenHaag.space.block.beetle}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.beetle}"
+            "$value": "{DenHaag.space.block.beetle}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           }
         }
       }
@@ -5470,7 +5474,7 @@
       "number-badge": {
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.100}"
+          "$value": "{DenHaag.color.violet.100}"
         },
         "border-color": {
           "$type": "color",
@@ -5478,11 +5482,11 @@
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.round}"
+          "$value": "{DenHaag.border-radius.round}"
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "color": {
           "$type": "color",
@@ -5502,19 +5506,19 @@
         },
         "min-block-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         },
         "min-inline-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         },
         "padding-block": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.ant}"
+          "$value": "{DenHaag.space.block.ant}"
         },
         "padding-inline": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{DenHaag.space.inline.ant}"
         }
       }
     },
@@ -5526,15 +5530,15 @@
         },
         "min-block-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         },
         "min-inline-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.round}"
+          "$value": "{DenHaag.border-radius.round}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -5542,7 +5546,7 @@
         },
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.100}"
+          "$value": "{DenHaag.color.violet.100}"
         },
         "color": {
           "$type": "color",
@@ -5550,11 +5554,11 @@
         },
         "padding-inline": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{DenHaag.space.inline.ant}"
         },
         "padding-block": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.ant}"
+          "$value": "{DenHaag.space.block.ant}"
         },
         "font-weight": {
           "$type": "fontWeights",
@@ -5562,7 +5566,7 @@
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "border-color": {
           "$type": "color",
@@ -5584,20 +5588,20 @@
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.rabbit}"
+          "$value": "{DenHaag.space.inline.rabbit}"
         },
         "item": {
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{DenHaag.space.inline.beetle}"
           },
           "margin-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           },
           "margin-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           }
         }
       }
@@ -5609,12 +5613,12 @@
         "relative-link": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "icon": {
             "margin-inline": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.text.beetle}"
+              "$value": "{DenHaag.space.text.beetle}"
             },
             "size": {
               "$type": "sizing",
@@ -5623,11 +5627,11 @@
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-start": {
             "$type": "spacing",
@@ -5730,14 +5734,14 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.500}"
+              "$value": "{DenHaag.color.gray.500}"
             }
           }
         },
         "page-link": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -5754,7 +5758,7 @@
             },
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.100}"
+              "$value": "{DenHaag.color.gray.100}"
             },
             "border-color": {
               "$type": "color",
@@ -5771,19 +5775,19 @@
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.snail}"
+            "$value": "{DenHaag.space.inline.snail}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.snail}"
+            "$value": "{DenHaag.space.inline.snail}"
           },
           "focus-visible": {
             "text-decoration": {
@@ -5875,19 +5879,19 @@
         "ellipses": {
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.ant}"
+            "$value": "{DenHaag.space.inline.ant}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.ant}"
+            "$value": "{DenHaag.space.inline.ant}"
           },
           "color": {
             "$type": "color",
@@ -5915,23 +5919,23 @@
         "relative-link": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "text-decoration": {
             "$type": "textDecoration",
@@ -5978,7 +5982,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.500}"
+              "$value": "{DenHaag.color.gray.500}"
             }
           },
           "text-transform": {
@@ -5989,7 +5993,7 @@
         "page-link": {
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -5998,7 +6002,7 @@
           "current": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.100}"
+              "$value": "{DenHaag.color.gray.100}"
             },
             "border-color": {
               "$type": "color",
@@ -6015,19 +6019,19 @@
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "hover": {
             "background-color": {
@@ -6203,20 +6207,20 @@
         "step-marker": {
           "size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.sm}"
+            "$value": "{DenHaag.size.sm}"
           },
           "nested": {
             "size": {
               "$type": "sizing",
-              "$value": "{voorbeeld.size.2xs}"
+              "$value": "{DenHaag.size.2xs}"
             },
             "inset-block-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.block.ant}"
+              "$value": "{DenHaag.space.block.ant}"
             },
             "padding-inline-start": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.inline.beetle}"
+              "$value": "{DenHaag.space.inline.beetle}"
             }
           },
           "checked": {
@@ -6226,7 +6230,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             },
             "border-color": {
               "$type": "color",
@@ -6236,7 +6240,7 @@
           "not-checked": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             },
             "color": {
               "$type": "color",
@@ -6250,11 +6254,11 @@
           "current": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.violet.600}"
+              "$value": "{DenHaag.color.violet.600}"
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             },
             "border-color": {
               "$type": "color",
@@ -6268,7 +6272,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             },
             "border-color": {
               "$type": "color",
@@ -6282,7 +6286,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             },
             "border-color": {
               "$type": "color",
@@ -6291,7 +6295,7 @@
           },
           "border-radius": {
             "$type": "borderRadius",
-            "$value": "{voorbeeld.border-radius.round}"
+            "$value": "{DenHaag.border-radius.round}"
           },
           "font-family": {
             "$type": "fontFamilies",
@@ -6311,7 +6315,7 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           },
           "icon-size": {
             "$type": "sizing",
@@ -6321,7 +6325,7 @@
         "connector": {
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "checked": {
             "border-color": {
@@ -6349,17 +6353,17 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           }
         },
         "step-heading": {
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rat}"
+            "$value": "{DenHaag.space.block.rat}"
           },
           "checked": {
             "color": {
@@ -6376,7 +6380,7 @@
           "current": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.violet.600}"
+              "$value": "{DenHaag.color.violet.600}"
             }
           },
           "error": {
@@ -6416,7 +6420,7 @@
             },
             "margin-inline": {
               "$type": "spacing",
-              "$value": "{voorbeeld.space.text.beetle}"
+              "$value": "{DenHaag.space.text.beetle}"
             },
             "checked": {
               "color": {
@@ -6445,18 +6449,18 @@
             "current": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.violet.600}"
+                "$value": "{DenHaag.color.violet.600}"
               },
               "active": {
                 "color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.color.violet.800}"
+                  "$value": "{DenHaag.color.violet.800}"
                 }
               },
               "hover": {
                 "color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.color.violet.700}"
+                  "$value": "{DenHaag.color.violet.700}"
                 }
               },
               "focus-visible": {
@@ -6474,13 +6478,13 @@
               "active": {
                 "color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.color.yellow.800}"
+                  "$value": "{DenHaag.color.yellow.800}"
                 }
               },
               "hover": {
                 "color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.color.yellow.700}"
+                  "$value": "{DenHaag.color.yellow.700}"
                 }
               },
               "focus-visible": {
@@ -6498,13 +6502,13 @@
               "active": {
                 "color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.color.red.800}"
+                  "$value": "{DenHaag.color.red.800}"
                 }
               },
               "hover": {
                 "color": {
                   "$type": "color",
-                  "$value": "{voorbeeld.color.red.700}"
+                  "$value": "{DenHaag.color.red.700}"
                 }
               },
               "focus-visible": {
@@ -6579,7 +6583,7 @@
             "active": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.violet.800}"
+                "$value": "{DenHaag.color.violet.800}"
               },
               "background-color": {
                 "$type": "color",
@@ -6593,7 +6597,7 @@
             "hover": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.violet.700}"
+                "$value": "{DenHaag.color.violet.700}"
               },
               "background-color": {
                 "$type": "color",
@@ -6631,7 +6635,7 @@
             "active": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.yellow.800}"
+                "$value": "{DenHaag.color.yellow.800}"
               },
               "background-color": {
                 "$type": "color",
@@ -6645,7 +6649,7 @@
             "hover": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.yellow.700}"
+                "$value": "{DenHaag.color.yellow.700}"
               },
               "background-color": {
                 "$type": "color",
@@ -6683,7 +6687,7 @@
             "active": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.red.800}"
+                "$value": "{DenHaag.color.red.800}"
               },
               "background-color": {
                 "$type": "color",
@@ -6697,7 +6701,7 @@
             "hover": {
               "color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.red.700}"
+                "$value": "{DenHaag.color.red.700}"
               },
               "background-color": {
                 "$type": "color",
@@ -6737,37 +6741,37 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           }
         },
         "step-header": {
           "column-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.column.rat}"
+            "$value": "{DenHaag.space.column.rat}"
           }
         },
         "step-meta": {
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.pig}"
+            "$value": "{DenHaag.space.inline.pig}"
           }
         },
         "sub-step": {
           "margin-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{DenHaag.space.block.rabbit}"
           }
         },
         "step-body": {
           "row-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.row.snail}"
+            "$value": "{DenHaag.space.row.snail}"
           }
         },
         "sub-step-header": {
           "column-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.column.cat}"
+            "$value": "{DenHaag.space.column.cat}"
           }
         }
       }
@@ -6803,7 +6807,7 @@
           },
           "stroke-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           },
           "checked": {
             "color": {
@@ -6848,7 +6852,7 @@
           "current": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.violet.600}"
+              "$value": "{DenHaag.color.violet.600}"
             }
           },
           "checked": {
@@ -6881,7 +6885,7 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           },
           "color": {
             "$type": "color",
@@ -6898,7 +6902,7 @@
           "current": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.violet.600}"
+              "$value": "{DenHaag.color.violet.600}"
             },
             "border-color": {
               "$type": "color",
@@ -6906,7 +6910,7 @@
             },
             "border-width": {
               "$type": "borderWidth",
-              "$value": "{voorbeeld.border-width.md}"
+              "$value": "{DenHaag.border-width.md}"
             },
             "color": {
               "$type": "color",
@@ -6924,7 +6928,7 @@
             },
             "border-width": {
               "$type": "borderWidth",
-              "$value": "{voorbeeld.border-width.md}"
+              "$value": "{DenHaag.border-width.md}"
             },
             "color": {
               "$type": "color",
@@ -6982,7 +6986,7 @@
           "current": {
             "border-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.violet.600}"
+              "$value": "{DenHaag.color.violet.600}"
             }
           },
           "checked": {
@@ -7028,12 +7032,12 @@
         },
         "size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.xs}"
+          "$value": "{DenHaag.size.xs}"
         },
         "icon": {
           "size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.3xs}"
+            "$value": "{DenHaag.size.3xs}"
           }
         },
         "active": {
@@ -7137,7 +7141,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           },
           "active": {
             "background-color": {
@@ -7154,7 +7158,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           },
           "focus": {
@@ -7190,7 +7194,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           }
         }
@@ -7210,7 +7214,7 @@
             },
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             }
           }
         }
@@ -7222,15 +7226,15 @@
       "radio-group": {
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{DenHaag.space.block.beetle}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.beetle}"
+          "$value": "{DenHaag.space.block.beetle}"
         },
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.rat}"
+          "$value": "{DenHaag.space.row.rat}"
         }
       }
     }
@@ -7374,7 +7378,7 @@
         },
         "block-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.4xs}"
+          "$value": "{DenHaag.size.4xs}"
         }
       }
     },
@@ -7382,7 +7386,7 @@
       "separator": {
         "block-size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.4xs}"
+          "$value": "{DenHaag.size.4xs}"
         },
         "color": {
           "$type": "color",
@@ -7400,7 +7404,7 @@
         },
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.cat}"
+          "$value": "{DenHaag.space.row.cat}"
         },
         "item": {
           "font-family": {
@@ -7427,15 +7431,15 @@
           },
           "column-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.text.mouse}"
+            "$value": "{DenHaag.space.text.mouse}"
           },
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "current": {
             "font-weight": {
@@ -7520,11 +7524,11 @@
         },
         "padding-block": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-inline": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "min-block-size": {
           "$type": "sizing",
@@ -7564,19 +7568,19 @@
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "text-decoration": {
           "$type": "textDecoration",
@@ -7626,7 +7630,7 @@
         },
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.sm}"
+          "$value": "{DenHaag.border-width.sm}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -7634,15 +7638,15 @@
         },
         "border-radius": {
           "$type": "borderRadius",
-          "$value": "{voorbeeld.border-radius.sm}"
+          "$value": "{DenHaag.border-radius.sm}"
         },
         "padding-inline": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.ant}"
+          "$value": "{DenHaag.space.inline.ant}"
         },
         "padding-block": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.flea}"
+          "$value": "{DenHaag.space.block.flea}"
         },
         "informative": {
           "background-color": {
@@ -7702,7 +7706,7 @@
         },
         "background-color": {
           "$type": "color",
-          "$value": "{voorbeeld.color.violet.100}"
+          "$value": "{DenHaag.color.violet.100}"
         },
         "border-color": {
           "$type": "color",
@@ -7720,7 +7724,7 @@
       "step-marker": {
         "border-width": {
           "$type": "borderWidth",
-          "$value": "{voorbeeld.border-width.md}"
+          "$value": "{DenHaag.border-width.md}"
         },
         "font-family": {
           "$type": "fontFamilies",
@@ -7732,7 +7736,7 @@
         },
         "padding": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "margin": {
           "$type": "spacing",
@@ -7740,7 +7744,7 @@
         },
         "size": {
           "$type": "sizing",
-          "$value": "{voorbeeld.size.sm}"
+          "$value": "{DenHaag.size.sm}"
         },
         "icon": {
           "size": {
@@ -7751,7 +7755,7 @@
         "current": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.violet.600}"
+            "$value": "{DenHaag.color.violet.600}"
           },
           "border-color": {
             "$type": "color",
@@ -7805,7 +7809,7 @@
         "disabled": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.50}"
+            "$value": "{DenHaag.color.gray.50}"
           },
           "border-color": {
             "$type": "color",
@@ -7813,7 +7817,7 @@
           },
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           }
         },
         "error": {
@@ -7871,7 +7875,7 @@
         "nested": {
           "size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.2xs}"
+            "$value": "{DenHaag.size.2xs}"
           },
           "icon": {
             "size": {
@@ -7883,7 +7887,7 @@
         "connector": {
           "outline-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           },
           "checked": {
             "outline-color": {
@@ -7925,18 +7929,18 @@
         "track": {
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.gray.500}"
+            "$value": "{DenHaag.color.gray.500}"
           },
           "active": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.700}"
+              "$value": "{DenHaag.color.gray.700}"
             }
           },
           "hover": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.600}"
+              "$value": "{DenHaag.color.gray.600}"
             }
           },
           "focus-visible": {
@@ -7948,24 +7952,24 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.300}"
+              "$value": "{DenHaag.color.gray.300}"
             }
           },
           "checked": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.green.500}"
+              "$value": "{DenHaag.color.green.500}"
             },
             "hover": {
               "background-color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.green.600}"
+                "$value": "{DenHaag.color.green.600}"
               }
             },
             "active": {
               "background-color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.green.700}"
+                "$value": "{DenHaag.color.green.700}"
               }
             },
             "focus-visible": {
@@ -7977,21 +7981,21 @@
             "disabled": {
               "background-color": {
                 "$type": "color",
-                "$value": "{voorbeeld.color.gray.300}"
+                "$value": "{DenHaag.color.gray.300}"
               }
             }
           },
           "border-radius": {
             "$type": "borderRadius",
-            "$value": "{voorbeeld.border-radius.round}"
+            "$value": "{DenHaag.border-radius.round}"
           },
           "padding-block": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.ant}"
+            "$value": "{DenHaag.space.inline.ant}"
           },
           "padding-inline": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.ant}"
+            "$value": "{DenHaag.space.inline.ant}"
           },
           "inline-size": {
             "$type": "sizing",
@@ -7999,13 +8003,13 @@
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           }
         },
         "icon": {
           "color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           },
           "focus-visible": {
             "color": {
@@ -8016,7 +8020,7 @@
           "disabled": {
             "color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.gray.600}"
+              "$value": "{DenHaag.color.gray.600}"
             }
           },
           "size": {
@@ -8032,7 +8036,7 @@
           "disabled": {
             "background-color": {
               "$type": "color",
-              "$value": "{voorbeeld.color.white}"
+              "$value": "{DenHaag.color.white}"
             },
             "box-shadow": {
               "$type": "boxShadow",
@@ -8041,7 +8045,7 @@
           },
           "background-color": {
             "$type": "color",
-            "$value": "{voorbeeld.color.white}"
+            "$value": "{DenHaag.color.white}"
           },
           "border-color": {
             "$type": "color",
@@ -8055,23 +8059,23 @@
           },
           "min-inline-size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.sm}"
+            "$value": "{DenHaag.size.sm}"
           },
           "min-block-size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.sm}"
+            "$value": "{DenHaag.size.sm}"
           },
           "box-shadow": {
             "$type": "boxShadow",
-            "$value": "{voorbeeld.box-shadow.sm}"
+            "$value": "{DenHaag.box-shadow.sm}"
           },
           "border-radius": {
             "$type": "borderRadius",
-            "$value": "{voorbeeld.border-radius.round}"
+            "$value": "{DenHaag.border-radius.round}"
           },
           "border-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           }
         }
       }
@@ -8099,7 +8103,7 @@
           },
           "line-height": {
             "$type": "lineHeights",
-            "$value": "{voorbeeld.typography.line-height.sm}"
+            "$value": "{DenHaag.typography.line-height.sm}"
           },
           "font-family": {
             "$type": "fontFamilies",
@@ -8115,25 +8119,25 @@
           },
           "margin-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.rabbit}"
+            "$value": "{DenHaag.space.block.rabbit}"
           }
         },
         "cell": {
           "padding-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.snail}"
+            "$value": "{DenHaag.space.block.snail}"
           },
           "padding-inline-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           },
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.mouse}"
+            "$value": "{DenHaag.space.inline.mouse}"
           }
         },
         "footer": {
@@ -8157,7 +8161,7 @@
           },
           "border-block-end-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           },
           "color": {
             "$type": "color",
@@ -8177,7 +8181,7 @@
           },
           "border-block-end-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.sm}"
+            "$value": "{DenHaag.border-width.sm}"
           }
         }
       }
@@ -8187,11 +8191,11 @@
         "container": {
           "box-inline-end-shadow": {
             "$type": "boxShadow",
-            "$value": "{voorbeeld.box-shadow.lg}"
+            "$value": "{DenHaag.box-shadow.lg}"
           },
           "box-inline-start-shadow": {
             "$type": "boxShadow",
-            "$value": "{voorbeeld.box-shadow.lg}"
+            "$value": "{DenHaag.box-shadow.lg}"
           }
         },
         "footer": {
@@ -8201,7 +8205,7 @@
           },
           "border-block-start-width": {
             "$type": "borderWidth",
-            "$value": "{voorbeeld.border-width.md}"
+            "$value": "{DenHaag.border-width.md}"
           },
           "font-weight": {
             "$type": "fontWeights",
@@ -8236,20 +8240,20 @@
         },
         "row-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.row.rat}"
+          "$value": "{DenHaag.space.row.rat}"
         },
         "item": {
           "column-gap": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.column.mouse}"
+            "$value": "{DenHaag.space.column.mouse}"
           },
           "margin-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           },
           "margin-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           }
         },
         "icon": {
@@ -8259,7 +8263,7 @@
           },
           "size": {
             "$type": "sizing",
-            "$value": "{voorbeeld.size.icon.sm}"
+            "$value": "{DenHaag.size.icon.sm}"
           }
         }
       }
@@ -8586,23 +8590,23 @@
       "toolbar-button": {
         "column-gap": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.text.beetle}"
+          "$value": "{DenHaag.space.text.beetle}"
         },
         "padding-block-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-block-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.block.snail}"
+          "$value": "{DenHaag.space.block.snail}"
         },
         "padding-inline-end": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.beetle}"
+          "$value": "{DenHaag.space.inline.beetle}"
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.beetle}"
+          "$value": "{DenHaag.space.inline.beetle}"
         }
       }
     }
@@ -8620,20 +8624,20 @@
         },
         "padding-inline-start": {
           "$type": "spacing",
-          "$value": "{voorbeeld.space.inline.mouse}"
+          "$value": "{DenHaag.space.inline.mouse}"
         },
         "item": {
           "padding-inline-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.inline.beetle}"
+            "$value": "{DenHaag.space.inline.beetle}"
           },
           "margin-block-end": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           },
           "margin-block-start": {
             "$type": "spacing",
-            "$value": "{voorbeeld.space.block.ant}"
+            "$value": "{DenHaag.space.block.ant}"
           }
         },
         "marker": {
