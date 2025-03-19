@@ -127,7 +127,7 @@
           },
           "900": {
             "$type": "color",
-            "$value": "#290B7A"
+            "$value": "#cf422a"
           },
           "950": {
             "$type": "color",
@@ -918,6 +918,450 @@
     }
   },
   "common": {
+    "utrecht": {
+      "document": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.white}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.gray.900}"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{DenHaag.typography.font-family.secondary}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{voorbeeld.typography.font-size.md}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{DenHaag.typography.font-weight.normal}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{DenHaag.typography.line-height.md}"
+        }
+      },
+      "heading": {
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{DenHaag.typography.font-family.primary}"
+        },
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{DenHaag.typography.font-weight.bold}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.gray.900}"
+        }
+      },
+      "form-control": {
+        "font-weight": {
+          "$type": "fontWeights",
+          "$value": "{DenHaag.typography.font-weight.normal}"
+        },
+        "background-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.white}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.gray.500}"
+        },
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "{DenHaag.border-width.sm}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.gray.950}"
+        },
+        "disabled": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.50}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.500}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.500}"
+          }
+        },
+        "focus": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.white}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.black}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.black}"
+          },
+          "border-width": {
+            "$type": "borderWidth",
+            "$value": "{DenHaag.border-width.md}"
+          }
+        },
+        "invalid": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.white}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{voorbeeld.feedback.negative.border-color}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{voorbeeld.feedback.negative.color}"
+          },
+          "border-width": {
+            "$type": "borderWidth",
+            "$value": "{DenHaag.border-width.md}"
+          }
+        },
+        "read-only": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.50}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "transparent"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.950}"
+          }
+        },
+        "placeholder": {
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.600}"
+          }
+        },
+        "border-radius": {
+          "$type": "borderRadius",
+          "$value": "0px"
+        },
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{DenHaag.typography.font-family.secondary}"
+        },
+        "font-size": {
+          "$type": "fontSizes",
+          "$value": "{voorbeeld.typography.font-size.md}"
+        },
+        "line-height": {
+          "$type": "lineHeights",
+          "$value": "{DenHaag.typography.line-height.md}"
+        },
+        "max-inline-size": {
+          "$type": "sizing",
+          "$value": "400px"
+        },
+        "padding-block-end": {
+          "$type": "spacing",
+          "$value": "{DenHaag.space.block.snail}"
+        },
+        "padding-block-start": {
+          "$type": "spacing",
+          "$value": "{DenHaag.space.block.snail}"
+        },
+        "padding-inline-end": {
+          "$type": "spacing",
+          "$value": "{DenHaag.space.inline.snail}"
+        },
+        "padding-inline-start": {
+          "$type": "spacing",
+          "$value": "{DenHaag.space.inline.snail}"
+        }
+      },
+      "focus": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.yellow.200}"
+        },
+        "color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.black}"
+        },
+        "outline-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.violet.700}"
+        },
+        "inverse": {
+          "outline-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.white}"
+          }
+        },
+        "outline-offset": {
+          "$type": "other",
+          "$value": "0"
+        },
+        "outline-style": {
+          "$type": "other",
+          "$value": "dotted"
+        },
+        "outline-width": {
+          "$type": "borderWidth",
+          "$value": "{DenHaag.border-width.md}"
+        }
+      },
+      "pointer-target": {
+        "min-size": {
+          "$type": "sizing",
+          "$value": "{DenHaag.size.md}"
+        }
+      },
+      "feedback": {
+        "warning": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.yellow.100}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.yellow.600}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.yellow.600}"
+          }
+        }
+      }
+    },
+    "voorbeeld": {
+      "root": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.gray.50}"
+        }
+      },
+      "container": {
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "{DenHaag.border-width.sm}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.gray.300}"
+        }
+      },
+      "line": {
+        "border-width": {
+          "$type": "borderWidth",
+          "$value": "{DenHaag.border-width.sm}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.gray.300}"
+        }
+      },
+      "form-control": {
+        "active": {
+          "border-width": {
+            "$type": "borderWidth",
+            "$value": "{DenHaag.border-width.md}"
+          },
+          "accent-color": {
+            "$type": "color",
+            "$value": "{voorbeeld.interaction.active.color}"
+          },
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.100}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.500}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.950}"
+          }
+        },
+        "hover": {
+          "border-width": {
+            "$type": "borderWidth",
+            "$value": "{DenHaag.border-width.md}"
+          },
+          "accent-color": {
+            "$type": "color",
+            "$value": "{voorbeeld.interaction.hover.color}"
+          },
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.50}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.500}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.950}"
+          }
+        },
+        "accent-color": {
+          "$type": "color",
+          "$value": "{voorbeeld.interaction.color}"
+        },
+        "disabled": {
+          "accent-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.500}"
+          }
+        }
+      },
+      "document": {
+        "inverse": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.950}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.white}"
+          }
+        },
+        "subtle": {
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.gray.600}"
+          }
+        },
+        "strong": {
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{DenHaag.typography.font-weight.bold}"
+          }
+        }
+      },
+      "interaction": {
+        "color": {
+          "$type": "color",
+          "$value": "{DenHaag.color.violet.700}"
+        },
+        "active": {
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.violet.900}"
+          }
+        },
+        "hover": {
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.violet.800}"
+          }
+        }
+      },
+      "icon": {
+        "functional": {
+          "size": {
+            "$type": "sizing",
+            "$value": "{DenHaag.size.icon.md}"
+          }
+        },
+        "toptask": {
+          "size": {
+            "$type": "sizing",
+            "$value": "{DenHaag.size.icon.4xl}"
+          }
+        }
+      },
+      "feedback": {
+        "informative": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.blue.100}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.blue.600}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.blue.600}"
+          }
+        },
+        "negative": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.red.100}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.red.600}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.red.600}"
+          }
+        },
+        "positive": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.green.100}"
+          },
+          "border-color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.green.600}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{DenHaag.color.green.600}"
+          }
+        }
+      },
+      "space": {
+        "relation": {
+          "kind": {
+            "$type": "dimension",
+            "$value": "0px"
+          },
+          "besties": {
+            "$type": "dimension",
+            "$value": "{DenHaag.space.row.snail}"
+          },
+          "vrienden": {
+            "$type": "dimension",
+            "$value": "{DenHaag.space.row.rat}"
+          },
+          "bekenden": {
+            "$type": "dimension",
+            "$value": "{DenHaag.space.row.cat}"
+          },
+          "onbekenden": {
+            "$type": "dimension",
+            "$value": "{DenHaag.space.row.pig}"
+          },
+          "onbemind": {
+            "$type": "dimension",
+            "$value": "{DenHaag.space.row.horse}"
+          }
+        }
+      },
+      "code": {
+        "font-family": {
+          "$type": "fontFamilies",
+          "$value": "{DenHaag.typography.font-family.code}"
+        }
+      }
+    }
+  },
+  "common darkmode": {
     "utrecht": {
       "document": {
         "background-color": {
@@ -8633,6 +9077,64 @@
         "border-radius": {
           "$type": "borderRadius",
           "$value": "{DenHaag.border-radius.round}"
+        },
+        "colour-outline": {
+          "$type": "color",
+          "$value": "{DenHaag.color.violet.800}"
+        }
+      }
+    }
+  },
+  "components/demo-card": {
+    "voorbeeld": {
+      "demo-card": {
+        "background-color": {
+          "$type": "color",
+          "$value": "{utrecht.document.background-color}"
+        },
+        "border-color": {
+          "$type": "color",
+          "$value": "{voorbeeld.container.border-color}"
+        },
+        "heading": {
+          "font-family": {
+            "$type": "fontFamilies",
+            "$value": "{ams.heading.font-family}"
+          },
+          "font-weight": {
+            "$type": "fontWeights",
+            "$value": "{utrecht.heading.font-weight}"
+          },
+          "line-height": {
+            "$type": "lineHeights",
+            "$value": "{utrecht.heading-3.line-height}"
+          },
+          "font-size": {
+            "$type": "fontSizes",
+            "$value": "{utrecht.heading-3.font-size}"
+          },
+          "color": {
+            "$type": "color",
+            "$value": "{utrecht.heading.color}"
+          }
+        },
+        "content": {
+          "padding-inline": {
+            "$type": "spacing",
+            "$value": "{DenHaag.space.inline.rabbit}"
+          },
+          "padding-block-start": {
+            "$type": "spacing",
+            "$value": "{DenHaag.space.block.rabbit}"
+          },
+          "padding-block-end": {
+            "$type": "spacing",
+            "$value": "{DenHaag.space.block.cat}"
+          },
+          "row-gap": {
+            "$type": "spacing",
+            "$value": "{DenHaag.space.row.rat}"
+          }
         }
       }
     }
@@ -8680,6 +9182,7 @@
     "tokenSetOrder": [
       "brand",
       "common",
+      "common darkmode",
       "components/accordion",
       "components/action",
       "components/action-group",
@@ -8747,6 +9250,7 @@
       "components/text-input",
       "components/toolbar-button",
       "components/demo-sticker",
+      "components/demo-card",
       "components/unordered-list"
     ]
   }
